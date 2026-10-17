@@ -1,22 +1,22 @@
 v1
 
-#SISYPHUS-Prime 
-> **De Novo Biofilm-Degrading Fusion Peptide (PelB – Alginate Lyase – (GGGGS)₃ – FK-13 – 6xHis)**
+# Project Sisyphus Prime: Broad-Spectrum Variant 🧬🛡️
+> **Multi-Enzyme Dual-Action Biofilm-Degrading Fusion Construct (PelB – Alginate Lyase – PelA/Psl Hydrolase – FK-13 AMP – 6xHis)**
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Status: Computational Phase Complete](https://img.shields.io/badge/Status-In_Silico_Validated-green.svg)
-![Tools: ESMFold | AutoDock Vina | PyMOL](https://img.shields.io/badge/Tools-ESMFold%20%7C%20Vina%20%7C%20PyMOL-orange.svg)
-
----
-
-Executive Summary
-
-**Project SISYPHUS-Prime** is a novel, dual-action recombinant fusion protein designed to break down dense *Pseudomonas aeruginosa* extracellular polymeric substance (EPS) matrices and clear persistent biofilm infections. 
-
-By fusing a catalytic **Alginate Lyase core** with a potent cationic antimicrobial peptide payload (**FK-13**) via a flexible GGGGSx3, SISYPHUS-Prime degrades the structural alginate backbone of biofilms while simultaneously targeting and lysing underlying bacterial cell membranes.
+![Status: Broad-Spectrum In Silico Design](https://img.shields.io/badge/Status-Broad_Spectrum_Optimized-blue.svg)
+![Target: Mucoid & Non-Mucoid P. aeruginosa](https://img.shields.io/badge/Target-Pan--Phenotype_Pseudomonas-orange.svg)
 
 ---
 
-Genetic Architecture & Construct Design
+## 📌 Executive Summary
+**Project Sisyphus Prime (Broad-Spectrum Variant)** is engineered to overcome the phenotypic diversity of *Pseudomonas aeruginosa* infections. Because clinical isolates can shift between mucoid (alginate-heavy) and non-mucoid (Pel/Psl-heavy) states, v2 integrates a **dual-enzyme matrix degradation module** combined with a **cationic membrane-lytic AMP payload** into a single continuous polypeptide chain.
 
-The 687 bp coding sequence (CDS) is cloned into a **pET-28a(+)** expression vector downstream of a T7/LacO promoter system for inducible expression in *E. coli* BL21(DE3).
+---
+
+## 🔬 Genetic Architecture
+1. **PelB Signal Peptide:** Sec-dependent periplasmic export.
+2. **Alginate Lyase Core:** Cleaves alginate matrices in mucoid strains.
+3. **PelA/Psl Glycoside Hydrolase Domain:** Degrades polysaccharide intercellular adhesins in non-mucoid strains.
+4. **Flexible Linkers ($(GGGGS)_2$ / $(GGGGS)_3$):** Prevents steric hindrance between functional domains.
+5. **Engineered FK-13 AMP:** Broad-spectrum outer-membrane LPS binding and cellular lysis.
+6. **6xHis Tag:** Ni-NTA purification handle.
